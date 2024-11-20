@@ -34,7 +34,7 @@ function SinglePostPage() {
         quis, sagittis posuere risus.
       </p>
       <div class="text-center mt-3">
-        <Link to="/usermanagepage">
+        <Link to="/postmanagepage">
           <i class="bi bi-arrow-left"></i> Back to Users
         </Link>
       </div>

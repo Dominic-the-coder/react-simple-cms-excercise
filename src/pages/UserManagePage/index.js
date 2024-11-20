@@ -56,9 +56,14 @@ function UserManagePage() {
                   >
                     <i class="bi bi-key"></i>
                   </button>
-                  <a href="#" class="btn btn-danger btn-sm">
+                  <button
+                    className="btn btn-danger me-2"
+                    onClick={() => {
+                      navigate("#");
+                    }}
+                  >
                     <i class="bi bi-trash"></i>
-                  </a>
+                  </button>
                 </div>
               </td>
             </tr>
@@ -87,9 +92,14 @@ function UserManagePage() {
                   >
                     <i class="bi bi-key"></i>
                   </button>
-                  <a href="#" class="btn btn-danger btn-sm">
+                  <button
+                    className="btn btn-danger me-2"
+                    onClick={() => {
+                      navigate("#");
+                    }}
+                  >
                     <i class="bi bi-trash"></i>
-                  </a>
+                  </button>
                 </div>
               </td>
             </tr>
@@ -118,9 +128,14 @@ function UserManagePage() {
                   >
                     <i class="bi bi-key"></i>
                   </button>
-                  <a href="#" class="btn btn-danger btn-sm">
+                  <button
+                    className="btn btn-danger me-2"
+                    onClick={() => {
+                      navigate("#");
+                    }}
+                  >
                     <i class="bi bi-trash"></i>
-                  </a>
+                  </button>
                 </div>
               </td>
             </tr>
