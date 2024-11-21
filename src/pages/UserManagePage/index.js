@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
+import Button from "../../components/Button";
 
 function UserManagePage() {
   const navigate = useNavigate();
@@ -7,14 +8,14 @@ function UserManagePage() {
       <div class="d-flex justify-content-between align-items-center mb-2">
         <h1 class="h1">Manage Users</h1>
         <div class="text-end">
-          <button
-            className="btn btn-primary"
+          <Button
+            color="primary"
             onClick={() => {
               navigate("/useraddpage");
             }}
           >
             Add New User
-          </button>
+          </Button>
         </div>
       </div>
       <div class="card mb-2 p-4">
@@ -39,31 +40,31 @@ function UserManagePage() {
                 <span class="badge bg-success">User</span>
               </td>
               <td class="text-end">
-                <div class="buttons">
-                  <button
-                    className="btn btn-success me-2"
+                <div class="d-flex justify-content-end gap-2">
+                  <Button
+                    color="green"
                     onClick={() => {
                       navigate("/usereditpage");
                     }}
                   >
                     <i class="bi bi-pencil"></i>
-                  </button>
-                  <button
-                    className="btn btn-warning me-2"
+                  </Button>
+                  <Button
+                    color="yellow"
                     onClick={() => {
                       navigate("/userchangepasswordpage");
                     }}
                   >
                     <i class="bi bi-key"></i>
-                  </button>
-                  <button
-                    className="btn btn-danger me-2"
+                  </Button>
+                  <Button
+                    color="red"
                     onClick={() => {
                       navigate("#");
                     }}
                   >
                     <i class="bi bi-trash"></i>
-                  </button>
+                  </Button>
                 </div>
               </td>
             </tr>
@@ -75,31 +76,31 @@ function UserManagePage() {
                 <span class="badge bg-info">Editor</span>
               </td>
               <td class="text-end">
-                <div class="buttons">
-                  <button
-                    className="btn btn-success me-2"
+                <div className="d-flex justify-content-end gap-2">
+                  <Button
+                    color="green"
                     onClick={() => {
                       navigate("/usereditpage");
                     }}
                   >
                     <i class="bi bi-pencil"></i>
-                  </button>
-                  <button
-                    className="btn btn-warning me-2"
+                  </Button>
+                  <Button
+                    color="yellow"
                     onClick={() => {
                       navigate("/userchangepasswordpage");
                     }}
                   >
                     <i class="bi bi-key"></i>
-                  </button>
-                  <button
-                    className="btn btn-danger me-2"
+                  </Button>
+                  <Button
+                    color="red"
                     onClick={() => {
                       navigate("#");
                     }}
                   >
                     <i class="bi bi-trash"></i>
-                  </button>
+                  </Button>
                 </div>
               </td>
             </tr>
@@ -111,31 +112,31 @@ function UserManagePage() {
                 <span class="badge bg-primary">Admin</span>
               </td>
               <td class="text-end">
-                <div class="buttons">
-                  <button
-                    className="btn btn-success me-2"
+                <div className="d-flex justify-content-end gap-2">
+                  <Button
+                    color="green"
                     onClick={() => {
                       navigate("/usereditpage");
                     }}
                   >
                     <i class="bi bi-pencil"></i>
-                  </button>
-                  <button
-                    className="btn btn-warning me-2"
+                  </Button>
+                  <Button
+                    color="yellow"
                     onClick={() => {
                       navigate("/userchangepasswordpage");
                     }}
                   >
                     <i class="bi bi-key"></i>
-                  </button>
-                  <button
-                    className="btn btn-danger me-2"
+                  </Button>
+                  <Button
+                    color="red"
                     onClick={() => {
                       navigate("#");
                     }}
                   >
                     <i class="bi bi-trash"></i>
-                  </button>
+                  </Button>
                 </div>
               </td>
             </tr>

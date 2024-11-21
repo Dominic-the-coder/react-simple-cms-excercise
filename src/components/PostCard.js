@@ -22,7 +22,14 @@ function Card(props) {
           <h5 class="card-title">{title}</h5>
           <p class="card-text">{desc}</p>
           <div class="text-end">
-            <Button label={buttonLabel} color={buttonColor} />
+            <Button
+              color={buttonColor}
+              onClick={(event) => {
+                event.preventDefault();
+              }}
+            >
+              {buttonLabel}
+            </Button>
           </div>
         </div>
       </div>
